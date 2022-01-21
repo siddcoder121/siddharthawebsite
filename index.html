@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>
+            My Website
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <header>
+        <h2></h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="pexels-yauheni-vasilevich-7101965.mp4" muted loop autoplay></video>
+    <div class="overlay">
+    <div class="text">
+      <h2>My name is </h2> 
+      <h3>Siddhartha Ghimire</h3>
+      <p>This is my Website </p>
+      <a href="#">Explore</a>
+    </div>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About me</a></li>
+      <li><a href="http://127.0.0.1:5500/My%20Games.html">My Games</a></li>
+    </ul>
+  </div>
+  <script>
+      const menuToggle = documehttp.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
+    </body>
+</html>
